@@ -1,0 +1,102 @@
+.input
+   {
+    font-weight:bold;
+    width:260px;
+    height:32px;
+    font-size:1em;
+    text-align: right
+   }
+
+    #amount
+    {
+   border-radius: 40px;
+    border:2px solid teal;
+    }
+    #per
+    {
+    border-radius: 40px;
+    border:2px solid teal;
+     }
+
+    #time
+   {
+     border-radius: 40px;
+     border:2px solid teal;
+    width:130px;
+    height:30px;
+     }
+
+     #interest
+    {
+     border-radius: 40px;
+     border:2px solid teal;
+    }
+     #total
+    {
+    border-radius: 40px;
+    border:2px solid teal;
+   }
+   .cal
+    {
+    font-weight:bold;
+   width:250px;
+   height:40px;
+   font-size:1em;
+    border-radius: 50px;
+   border:2px solid black;
+   }
+   #t1
+    {
+     color:teal;
+    font-size:2em;
+    border-radius: 40px;
+    font-weight:bold;
+
+    font-family:Gabriola;
+    }
+
+    select
+   {
+   border-radius: 40px;
+   border:2px solid teal;
+   width:130px;
+   height:35px;
+   font-size:1em;
+   }
+
+   #div
+   {
+    background-color: lightgrey;
+   width: 600px;
+    padding: 20px;
+    border: 25px solid green;
+     margin: 20px;
+    border-style: inset;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px red;
+    }
+    h1
+   {
+   color:purple;
+   hypens:auto;
+    text-shadow: 10px 10px 10px black;
+  font-weight:bold;
+  font-variant: small-caps;
+   font-size:3em;
+  }
+  #d1
+ {
+    background-color: lightgrey;
+   width: 850px;
+   padding: 25px;
+    border: 25px solid navy;
+    margin:60px;
+    margn-left:5px;
+   }
+
+  #cal
+  {
+  background-color:teal;
+  width:280px;!important
+  height:33px;!important
+  }

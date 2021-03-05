@@ -1,0 +1,90 @@
+<html>
+
+        <head>
+       <title>SIMPLE INTEREST CALCULATOR</title>
+
+       <link type="text/css"  href="style2.css"  rel="stylesheet ">
+
+        <script type="text/javascript" src="js2.js">  
+
+        </script>
+
+      </head>
+
+       <body>
+
+     <form name="frm">
+
+    <center>
+
+    <h1>Simple Interest Calculator</h1>
+
+     <div id="div">
+
+    <table id="t1">
+
+     <caption> </caption>
+
+     <tr> 
+     <td>Amount $:
+     </td>
+
+     <td> 
+
+     <input type="text" name="amount" id="amount" value="" class="input" min="0"  onkeyup="AllowNumber()"/>
+      </td>
+     </tr>
+
+      <tr>
+      <td>Rate %:
+    </td>
+
+       <td><input type="text" name="rate" id="per" value="" min="0" max="3"     class="input" />
+     </td>
+    </tr>
+
+   <tr>
+   <td>Time peroid:</td>
+   <td>
+    <input type="number" name="time" value="" id="time" min="0" class="input"/>
+
+   <select id="peroid" class="choice">
+
+  <option>Choose</option>
+
+  <option value="year">Year</option>
+
+  <option value="month">Month</option>
+
+
+   </select>
+
+   </td>
+
+   </tr>
+
+   <tr>
+
+   <td>
+Total Interest:
+   </td>
+
+    <td>
+    <input type="text" id="interest" value="" name="interest" class="input" readonly/>
+  </td>
+  </tr>
+
+  <tr><td>TotalAmount:</td>
+    <td><input type="text" id="total" name="total" value="" class="input" readonly/></td></tr>
+
+    <tr>
+   <td><input type="button" name="cal" id="cal" value="Calculate" class="cal" onclick="cali()"/>
+   </td>
+
+     <td><input type="reset" name="clear" id="cal" value="Clear" class="cal"/>    </td></tr>
+    </table>
+   </center>
+    </div>
+  </form>
+  </body>
+   </html>
